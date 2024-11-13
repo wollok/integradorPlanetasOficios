@@ -1,0 +1,10 @@
+import personas.*
+
+describe "group of tests " {
+
+  test "una persona destacada por su edad" {
+    const tito = new Persona(edad=40)
+    assert.that(tito.esDestacada())
+  }
+
+}
